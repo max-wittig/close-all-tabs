@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Close all tabs",
+  "short_name": "tab-closes",
+  "description": "Closes all tabs, except the current one",
+  "version": "0.0.1",
+  "minimum_chrome_version": "78",
+  "permissions": [
+    "contextMenus", 
+    "tabs"
+  ],
+  "background": {"page": "background.html"}
+}
